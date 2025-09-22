@@ -14,7 +14,8 @@ A simple Python program that analyzes a job description and your resume against 
 
 ## Setup
 - Place `keywords.py`, `job_desc.txt`, and `resume.txt` in the same directory.  
-- Ensure you have **Python 3.x** installed.  
+- Ensure you have **Python 3.x** installed.
+- Run the command in your terminal `pip3 install csv` or the equivalent in your OS.
 
 ---
 

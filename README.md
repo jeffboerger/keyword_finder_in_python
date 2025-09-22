@@ -1,18 +1,30 @@
-# keyword_finder_in_python
-A Short Program that takes in txt files of a job description and compares it to a list of Action Keywords and a txt version of your resume.  Then Prints results to a third file.
+# Resume Keyword Matcher
 
+A simple Python program that analyzes a job description and your resume against a list of action keywords. It generates a report showing how well your resume aligns with the job description.
 
-STEP 1:
-Copy and Paste a job description into a txt file named "job_desc.txt"
-make sure the file is in the same directory as keyword.py
+---
 
-STEP 2: 
-Copy and Paste your current resume into a txt file named "resume.txt"
-make sure the file is in the same directory as keyword.py
+## How It Works
+1. Takes a job description from `job_desc.txt`  
+2. Takes your resume from `resume.txt`  
+3. Compares both against a predefined list of **action keywords**  
+4. Outputs the results to `Report.txt`  
 
-STEP 3:
-run keywords.py, and view the results in 'Report.txt'
+---
 
-STEP 4: 
-Make changes to resume as needed
+## Setup
+- Place `keywords.py`, `job_desc.txt`, and `resume.txt` in the same directory.  
+- Ensure you have **Python 3.x** installed.  
 
+---
+
+## Usage
+1. **Create Job Description File**  
+   Copy and paste the job posting into a text file named `job_desc.txt`.  
+
+2. **Create Resume File**  
+   Copy and paste your current resume into a text file named `resume.txt`.  
+
+3. **Run the Script**  
+   ```bash
+   python keywords.py

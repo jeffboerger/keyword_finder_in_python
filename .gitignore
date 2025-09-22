@@ -203,5 +203,24 @@ cython_debug/
 
 # Marimo
 marimo/_static/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Xcode
+.build/
+DerivedData/
+
+# Finder tags
+.metadata_never_index
+
+# Temporary files
+*.swp
+*.swo
 marimo/_lsp/
 __marimo__/
